@@ -1,7 +1,6 @@
 package kr.ac.ks.app.domain;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -20,6 +19,14 @@ public class Student {
 
     private String name;
     private String email;
+
+    public Student() {
+    }
+
+    public Student(String name, String email) {
+        this.name = name;
+        this.email = email;
+    }
 
     @OneToMany(mappedBy = "student")
     private List<Course> courses = new ArrayList<>();
