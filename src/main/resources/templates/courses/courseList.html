@@ -20,8 +20,8 @@
         <tr th:each="course : ${courses}">
             <td th:text="${course.id}"></td>
             <td th:text="${course.student.name}"></td>
-            <td th:text="${course.lessons[0].name}"></td>
-            <td th:text="${course.lessons[0].quota}"></td>
+            <td th:text="${course.lesson.name}"></td>
+            <td th:text="${course.lesson.quota}"></td>
             <td>
                 <a href="#" class="btn btn-primary" role="button">수정</a>
             </td>
