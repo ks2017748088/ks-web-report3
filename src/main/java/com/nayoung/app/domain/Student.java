@@ -1,4 +1,4 @@
-package kr.ac.ks.app.domain;
+package com.nayoung.app.domain;
 
 import lombok.*;
 

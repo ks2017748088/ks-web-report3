@@ -1,6 +1,6 @@
-package kr.ac.ks.app.repository;
+package com.nayoung.app.repository;
 
-import kr.ac.ks.app.domain.Course;
+import com.nayoung.app.domain.Course;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CourseRepository extends JpaRepository<Course, Long> {

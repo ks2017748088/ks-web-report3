@@ -1,7 +1,7 @@
-package kr.ac.ks.app.controller;
+package com.nayoung.app.controller;
 
-import kr.ac.ks.app.domain.Lesson;
-import kr.ac.ks.app.repository.LessonRepository;
+import com.nayoung.app.domain.Lesson;
+import com.nayoung.app.repository.LessonRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

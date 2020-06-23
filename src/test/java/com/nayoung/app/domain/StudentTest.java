@@ -1,6 +1,6 @@
-package kr.ac.ks.app.domain;
+package com.nayoung.app.domain;
 
-import kr.ac.ks.app.repository.StudentRepository;
+import com.nayoung.app.repository.StudentRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

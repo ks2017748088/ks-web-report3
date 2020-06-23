@@ -1,13 +1,10 @@
-package kr.ac.ks.app.domain;
+package com.nayoung.app.domain;
 
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 
 import javax.persistence.*;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 @Entity
 @Getter

@@ -1,10 +1,9 @@
-package kr.ac.ks.app;
+package com.nayoung.app;
 
-import kr.ac.ks.app.domain.Lesson;
-import kr.ac.ks.app.domain.Student;
-import kr.ac.ks.app.repository.CourseRepository;
-import kr.ac.ks.app.repository.LessonRepository;
-import kr.ac.ks.app.repository.StudentRepository;
+import com.nayoung.app.domain.Lesson;
+import com.nayoung.app.domain.Student;
+import com.nayoung.app.repository.LessonRepository;
+import com.nayoung.app.repository.StudentRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -27,5 +26,4 @@ public class AppApplication {
 			lessonRepository.save(Lesson.builder().name("L2").quota(15).build());
 		};
 	}
-
 }

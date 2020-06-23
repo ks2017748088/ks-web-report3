@@ -1,6 +1,6 @@
-package kr.ac.ks.app.repository;
+package com.nayoung.app.repository;
 
-import kr.ac.ks.app.domain.Student;
+import com.nayoung.app.domain.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,18 +1,17 @@
-package kr.ac.ks.app.controller;
+package com.nayoung.app.controller;
 
-import kr.ac.ks.app.domain.Course;
-import kr.ac.ks.app.domain.Lesson;
-import kr.ac.ks.app.domain.Student;
-import kr.ac.ks.app.repository.CourseRepository;
-import kr.ac.ks.app.repository.LessonRepository;
-import kr.ac.ks.app.repository.StudentRepository;
+import com.nayoung.app.domain.Course;
+import com.nayoung.app.domain.Lesson;
+import com.nayoung.app.domain.Student;
+import com.nayoung.app.repository.CourseRepository;
+import com.nayoung.app.repository.LessonRepository;
+import com.nayoung.app.repository.StudentRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.util.Arrays;
 import java.util.List;
 
 @Controller
@@ -53,5 +52,4 @@ public class CourseController {
         model.addAttribute("courses", courses);
         return "courses/courseList";
     }
-
 }

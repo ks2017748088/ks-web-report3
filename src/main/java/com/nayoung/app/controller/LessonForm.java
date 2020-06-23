@@ -1,4 +1,4 @@
-package kr.ac.ks.app.controller;
+package com.nayoung.app.controller;
 
 import lombok.Getter;
 import lombok.Setter;
